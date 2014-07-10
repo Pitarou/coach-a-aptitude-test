@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=array\ rank
+comment0.target=int\ select(int[],\ int)
+comment0.text=\n\ Return\ the\ nth\ highest\ integer\ in\ the\ given\ array.\n\ \n\ @param\ array\ \ \ a\ non-empty\ array\ of\ ints\n\ @param\ rank\ \ \ 0\ for\ the\ highest\ integer,\ array.length\ -\ 1\ for\ the\ lowest.\ Values\ outside\ the\ range\ [0..array.length\ -\ 1]\ are\ pulled\ into\ the\ valid\ range.\n\ @return\ \ the\ integer\ of\ the\ chosen\ rank\ in\ the\ array\n
+numComments=1
