@@ -18,6 +18,7 @@ public class SortSelectionTest
     int[] array3;
     int[] array4;
     int[] arrayRepeats;
+    int[] arrayExampleGivenInSpecification;
     
     /**
      * Default constructor for test class SortSelectionTest
@@ -39,6 +40,7 @@ public class SortSelectionTest
         this.array3 = new int[]{1,2,3};
         this.array4 = new int[]{4, 3, 2, 1};
         this.arrayRepeats = new int[] {1,2,1,2,1,2,1};
+        this.arrayExampleGivenInSpecification = new int[] {1, 4, 2, 3, 5, 8, 6, 9, 8, 0};
     }
 
     /**
@@ -92,5 +94,10 @@ public class SortSelectionTest
     @Test
     public void rankTooHigh() {
         assertEquals(this.ss.select(array3, 10), 1);
+    }
+    
+    @Test
+    public void exampleGivenInSpecification() {
+        assertEquals(this.ss.select(arrayExampleGivenInSpecification, 2), 8);
     }
 }
