@@ -26,6 +26,14 @@ Requirements
 Implementation Notes
 ====================
 
+What are all those extra files?
+-------------------------------
+
+In the `/doc` directory you can find the Javadoc documentation.
+
+The `.ctxt` and `package.bluej` files are used by my IDE.
+You can ignore them.
+
 Error handling
 --------------
 
